@@ -1,6 +1,6 @@
-### This is a project to calculate the Surface Land Temperature (LST) for a city in Python and then export the result to QGIS for mapping. To be more specific,
-- the project creates a function to calculate the LST in Python for a region where the city is located (using Landsat-8 data) and saves the result as a Geotiff file,
-- it then imports the file to QGIS to be reprojected and clipped by the city boundary to produce the LST GIS map for the city
+### This is a project to calculate the Surface Land Temperature (LST) for a city in Python and then export the result to QGIS for mapping.
+- To be more specific, the project creates a function to calculate the LST in Python for a region where the city is located (using Landsat-8 data) and saves the result as a Geotiff file.
+- It then imports the file to QGIS to be reprojected and clipped by the city boundary to produce the LST GIS map for the city.
 
 
 ### Data sources and Python and QGIS versions:
