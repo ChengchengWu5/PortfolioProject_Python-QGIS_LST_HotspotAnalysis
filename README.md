@@ -1,6 +1,6 @@
-### This is a project to calculate the Surface Land Temperature (LST) for a city in Python and then export to QGIS for mapping. The following are the steps involved in the process:
-- Create a function to calculate the LST in Python for a region where the city (Birmingham, UK in this case) is located and save the result as a Geotiff file
-- Import the file to QGIS to be reprojected to EPSG:27700 (British National Grid) and then clip it by Birmingham boundary
+### This is a project to calculate the Surface Land Temperature (LST) for a city in Python and then export the result to QGIS for mapping. To be more specific,
+- the project creates a function to calculate the LST in Python for a region where the city is located (using Landsat-8 data) and saves the result as a Geotiff file,
+- it then imports the file to QGIS to be reprojected and clipped by the city boundary to produce the LST GIS map for the city
 
 
 ### Data sources and Python and QGIS versions:
